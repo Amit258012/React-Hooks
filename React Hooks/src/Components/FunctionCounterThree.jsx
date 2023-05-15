@@ -9,7 +9,7 @@ import { useState } from "react";
 function FunctionCounterThree() {
     const [name, setName] = useState({ firstName: "", lastName: "" });
     return (
-        <div>
+        <>
             <form>
                 <input
                     type="text"
@@ -29,7 +29,7 @@ function FunctionCounterThree() {
                 <h2>Your last name is- {name.lastName}</h2>
                 <h2>{JSON.stringify(name)}</h2>
             </form>
-        </div>
+        </>
     );
 }
 

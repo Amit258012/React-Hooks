@@ -5,9 +5,7 @@ import { useState } from "react";
 function FunctionCounter() {
     const [count, setCount] = useState(0);
 
-    function handler() {
-        return setCount(count + 1);
-    }
+    const handler = () => setCount(count + 1);
     return (
         <div>
             <button onClick={handler}>Count {count}</button>
