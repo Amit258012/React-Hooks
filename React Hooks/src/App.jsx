@@ -8,7 +8,9 @@ import "./App.css";
 // import HookMouse from "./Components/HookMouse";
 // import MouseContainer from "./Components/MouseContainer";
 // import IntervalCounter from "./Components/IntervalCounter";
-import DataFetch from "./Components/DataFetch";
+// import DataFetch from "./Components/DataFetch";
+// import ReducerCounter3 from "./Components/ReduceCounter3";
+import DataFetching2 from "./Components/DataFetching2";
 
 function App() {
     return (
@@ -23,7 +25,9 @@ function App() {
             {/* <HookMouse /> */}
             {/* <MouseContainer /> */}
             {/* <IntervalCounter /> */}
-            <DataFetch />
+            {/* <DataFetch /> */}
+            {/* <ReducerCounter3 /> */}
+            <DataFetching2 />
         </>
     );
 }
