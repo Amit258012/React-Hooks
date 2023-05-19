@@ -7,12 +7,12 @@ const initialState = {
     post: {},
 };
 
-const reducer = (state, action) => {
-    switch (action.type) {
+const reducer = (state, { type, data }) => {
+    switch (type) {
         case "Fetch":
             return {
                 loading: false,
-                post: action.data,
+                post: data,
                 error: "",
             };
         case "Fetch_Error":
